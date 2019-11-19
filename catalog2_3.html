@@ -1,0 +1,991 @@
+<!doctype html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <title>Lr.ru</title>
+    <script type="text/javascript"> 
+function diplay_hide (blockId)
+
+{ 
+    if ($(blockId).css('display') == 'none') 
+        { 
+            $(blockId).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId).animate({height: 'hide'}, 500); 
+        }} 
+</script>
+  </head>
+  <body>
+
+
+
+
+<header>
+    <div class="container mycontainer">
+      <div class="row">
+        <div class="col-3 col-sm-2 col-md-2 order-md-1 order-lg-1 order-xl-1 col-lg-1 col-xl-1">
+          <div class="logo">
+            <a href=""><img src="img/logo.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col-9 col-sm-10 col-md-6 order-md-2 order-lg-2 order-xl-2 col-lg-4 col-xl-4">
+          <div class="header_block1_top">
+            <div class="text">
+              Мы доставляем по России и СНГ
+            </div>
+            <div class="lang">
+              <img src="img/flag_ru.svg" alt="">ru
+            </div>
+          </div>
+          <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Все разделы
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Раздел 1</a>
+    <a class="dropdown-item" href="#">Раздел 2</a>
+    <a class="dropdown-item" href="#">Раздел 3</a>
+  </div>
+</div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-12 order-md-4 order-lg-3 order-xl-3 col-lg-5 col-xl-5">
+         <nav class="header_menu">
+           <ul>
+             <li class="li_color1"><a href="tel:+74956496060"><i class="fas fa-phone"></i> +7 (495) 649 60 60</a></li>
+             <li><a href=""><i class="fas fa-comment"></i> поддержка</a></li>
+             <li><a href=""><i class="fas fa-phone-volume"></i> заказать звонок</a></li>
+             <li><a href=""><i class="fas fa-address-card"></i> контакты</a></li>
+           </ul>
+         </nav>
+         <div class="search_header">
+           <div class="input-group">
+  <input type="text" class="form-control" placeholder="поиск по артикулу или наименованию...">
+  <div class="input-group-append">
+    <button type="button" class="btn ext"><i class="fas fa-cogs"></i></button>
+    <button type="button" class="btn btn-outline-secondary" dropdown-toggle">найти</button>
+
+  </div>
+</div>
+         </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 order-md-3 order-lg-4 order-xl-4 col-lg-2 col-xl-2">
+          <div class="cabinet">
+            <i class="fas fa-user"></i>
+            <a href="">Вход</a> / <a href=""> Регистрация</a>
+          </div>
+          <div class="fav_car">
+            <div class="favorite">
+              <div class="num">2</div>
+              <a href=""><i class="far fa-heart"></i></a>
+              <div class="text0">Избранное</div>
+            </div>
+            <div class="cart">
+              <div class="num">0  </div>
+               <a href=""><i class="fas fa-shopping-cart"></i></a>
+              <div class="text0">Корзина</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <section class="mainmenu">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container mycontainer">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Новости
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Новости 1</a>
+          <a class="dropdown-item" href="#">Новости 2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Новости 3</a>
+        </div>
+      </li>
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Магазин
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Магазин 1</a>
+          <a class="dropdown-item" href="#">Магазин 2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Магазин 3</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Запчасти</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Тюнинг и стайлинг</a>
+      </li>
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Сервис
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Сервис 1</a>
+          <a class="dropdown-item" href="#">Сервис 2</a>
+          <a class="dropdown-item" href="#">Сервис 3</a>
+        </div>
+      </li>     
+      <li class="nav-item">
+        <a class="nav-link" href="#">Автосалон</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Читальна</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Файлы</a>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
+</nav>
+
+</section>
+
+
+
+<div class="container mycontainer">
+   <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="breadcrumb">
+      <ul>
+        <li> <a href="">Главная</a></li>
+        <li> / </li>
+        <li><a href="">Новости</a></li>
+        <li> / </li>
+        <li><a href="">Discovery Sport</a></li>
+        <li> / </li>
+        <li><a href="">Плановое техобслуживание</a></li>
+        <li> / </li>
+        <li><a href="">Бензиновые моторы</a></li>
+        <li> / </li>
+        <li>Фильтры</li>
+      </ul>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mycontainer catalog2_header">
+  <div class="row">
+         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+          <a  href="catalog2_1.html">
+            <div class="icon0"><i class="fas fa-boxes"></i></div>
+            <div class="title0"><span>дерево</span></div>
+          </a>
+         </div>
+         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+          <a href="catalog2_2.html">
+            <div class="icon0"><i class="fas fa-stream"></i></div>
+            <div class="title0"><span>список</span></div>
+          </a>
+         </div>
+         <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+          <a class="active" href="catalog2_3.html">
+            <div class="icon0"><i class="fas fa-drafting-compass"></i></div>
+            <div class="title0"><span>чертеж</span></div>
+          </a>
+         </div>                  
+  </div>
+</div>          
+
+
+
+
+
+
+<div class="container mycontainer catalog0">
+  <div class="row">
+         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+         Тут будут чертежи.
+         </div>
+  </div>
+</div>
+
+
+
+
+
+   
+   <div class="product_pred">
+  <div class="container mycontainer">
+   <div class="row">
+    <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+      <div class="product_sort">
+        <div class="title_sort">товарные предложения</div>
+        <div class="sort1">Показывать <span>Все</span></div>
+        <div class="sort2">Сортировка <span>По цене</span> <i class="fas fa-sort-amount-down"></i></div>
+      </div>
+</div>
+
+<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 gridlist text-right">
+  <a class="active" href="catalog_list.html"><i class="fas fa-th"></i></a>
+  <a href="catalog_grid.html"><i class="fas fa-th-list"></i></a>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div style="margin-top: 5px" class="bottom_product1">
+
+<div class="container mycontainer">
+
+</div>
+<div style="padding-top: 40px" class="special_carousel">
+      <div class="container mycontainer special">
+
+   <div class="oneproduct1">
+
+   <div class="border00">
+    <div class="special_label00">Лучшая цена</div>
+     <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"><img class="img-fluid" src="img/special.png" alt=""></div>
+           <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+        <h4>Фары головные светодиодные LED высокой мощности, комплект 2 шт. Defender.</h4>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+              <div class="bottom_oneproduct"> 
+        <div class="soc"><img src="img/social.png" alt=""></div>
+        <div class="readmore"><a href="">Подробнее <i class="fas fa-angle-double-right"></i></a></div>
+        <div class="bookmark"><a href="">В закладки <i class="fas fa-heart"></i></a></div>
+        <div class="ques"><a href=""><i class="fas fa-question-circle"></i> Задать вопрос</a></div>
+        <div class="price">
+          <div class="price_title">Цена от:</div>
+          <div class="price_p">
+            35 000 <i class="fas fa-ruble-sign"></i>    
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="readmore_price"><a href="#" onclick="diplay_hide('#block_id');return false;">показать все цены <i class="fas fa-chevron-down"></i></a></div>
+   </div>  
+
+
+
+   <div id="block_id" class="product_pred" style="display: none;">
+
+<div class="container mycontainer">
+
+
+<div class="row marginlr">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h4>Магазин lr.ru</h4>
+</div>
+</div>
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+ Замена<br>
+ <span>ERR3340</span>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-bars"></i> В наличии</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>britpart</h5>
+  <span>oem</span>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">360 <i class="fas fa-ruble-sign"></i></div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5_1">
+  <div class="stock"><i class="fas fa-users-cog"></i> Склад партнера</div>
+  Подвезем за 2 дня
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  есть
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4_1">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">ликвидация</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-layer-group"></i> на складе</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>arb</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4_2">
+  <div class="price">105 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5_1">
+  <div class="stock"><i class="fas fa-layer-group"></i> Заказ</div>
+  35 дней
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 шт
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1_1">
+  <h5>custom or</h5>
+  <span>некондиция</span>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-layer-group"></i> На складе</div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  есть
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+</div>
+
+
+<div class="row marginlr">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h4 class="background4">Магазин-партнер lr-star</h4>
+</div>
+</div>
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+ Замена<br>
+ <span>ERR3340</span>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-bars"></i> В наличии</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+   </div>
+ 
+</div> 
+ 
+
+
+
+ <div class="oneproduct1">
+
+   <div class="border00">
+    <div class="special_label00">Лучшая цена</div>
+     <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2"><img class="img-fluid" src="img/special.png" alt=""></div>
+           <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+        <h4>Фары головные светодиодные LED высокой мощности, комплект 2 шт. Defender.</h4>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+              <div class="bottom_oneproduct"> 
+        <div class="soc"><img src="img/social.png" alt=""></div>
+        <div class="readmore"><a href="">Подробнее <i class="fas fa-angle-double-right"></i></a></div>
+        <div class="bookmark"><a href="">В закладки <i class="fas fa-heart"></i></a></div>
+        <div class="ques"><a href=""><i class="fas fa-question-circle"></i> Задать вопрос</a></div>
+        <div class="price">
+          <div class="price_title">Цена от:</div>
+          <div class="price_p">
+            35 000 <i class="fas fa-ruble-sign"></i>    
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="readmore_price"><a href="#" onclick="diplay_hide('#block_id2');return false;">показать все цены <i class="fas fa-chevron-down"></i></a></div>
+   </div>  
+
+
+
+   <div id="block_id2" class="product_pred" style="display: none;">
+
+<div class="container mycontainer">
+
+
+<div class="row marginlr">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h4>Магазин lr.ru</h4>
+</div>
+</div>
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+ Замена<br>
+ <span>ERR3340</span>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-bars"></i> В наличии</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>britpart</h5>
+  <span>oem</span>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">360 <i class="fas fa-ruble-sign"></i></div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5_1">
+  <div class="stock"><i class="fas fa-users-cog"></i> Склад партнера</div>
+  Подвезем за 2 дня
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  есть
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4_1">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">ликвидация</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-layer-group"></i> на складе</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>arb</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4_2">
+  <div class="price">105 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5_1">
+  <div class="stock"><i class="fas fa-layer-group"></i> Заказ</div>
+  35 дней
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 шт
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1_1">
+  <h5>custom or</h5>
+  <span>некондиция</span>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-layer-group"></i> На складе</div>
+
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  есть
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+</div>
+
+
+<div class="row marginlr">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <h4 class="background4">Магазин-партнер lr-star</h4>
+</div>
+</div>
+<div class="row table0">
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop1">
+  <h5>EUROSPARE</h5>
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop2">
+<i class="fas fa-info-circle"></i>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop3">
+ Замена<br>
+ <span>ERR3340</span>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop4">
+  <div class="price">180 <i class="fas fa-ruble-sign"></i></div>
+  <button type="button">лучшая цена</button>
+</div>
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop5">
+  <div class="stock"><i class="fas fa-bars"></i> В наличии</div>
+  Купить сейчас
+</div>
+<div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 dop6">
+  4 ШТ
+</div>
+
+<div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 dop7">
+  <button type="button">В корзину <i class="fas fa-cart-arrow-down"></i></button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+   </div>
+ 
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+ </div>
+
+
+<div class="container mycontainer">
+  <div class="row">
+    <div class="col-12 ol-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="navigation0">
+      <ul>
+                <li class="nav_left"><a href=""><i class="fas fa-angle-double-left"></i> предыдущие 10</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a href="">...</a></li>
+                <li class="nav_right"><a href="">следующие 10 <i class="fas fa-angle-double-right"></i></a></li>
+              </ul>        
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+<footer>
+  <div class="footer1">
+    <div class="container mycontainer">
+    <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="logo_phone">
+        <div class="logo"><a href=""><img src="img/logo.svg" alt=""></a></div>
+        <div class="phone">
+          <div class="p1"><i class="fas fa-phone"></i></div>
+          <div class="p2">+7 (495) 649 60 60<br>+7 (495) 649 60 60</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 contact">
+      <ul>
+        <li><i class="fas fa-address-card"></i> <a href="">Контакты</a></li>
+        <li><i class="fas fa-map-marked"></i> <a href="">Схема проезда</a></li>
+        <li><i class="fas fa-clock"></i> <a href="">График работы</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 subscribe">
+      <h4>Подпишитесь на нашу рассылку</h4>
+      <p>для получения новостей подпишитесь lorem ipsun</p>
+                 <div class="input-group">
+  <input type="text" class="form-control" placeholder="Ваш E-mail...">
+  <div class="input-group-append">
+    
+    <button type="button" class="btn btn-outline-secondary" dropdown-toggle"><i class="fas fa-angle-right"></i></button>
+
+  </div>
+</div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <button class="button1"><i class="fas fa-phone-volume"></i>Заказать звонок</button>
+      <br>
+      <button class="button2"><i class="fas fa-comments"></i>Онлайн чат</button>
+      <br>
+      <button class="button3"><i class="fas fa-user-edit"></i>Отзывы, пожелания</button>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="soc">
+        <ul>
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-vk"></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="row footer_top_menu">
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>информация</h3>
+      <ul>
+        <li><a href="">О Компании</a></li>
+        <li><a href="">Реквизиты</a></li>
+        <li><a href="">Ваканции</a></li>
+        <li><a href="">Сотрудничество</a></li>
+        <li><a href="">Оптовикам</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>информация</h3>
+      <ul>
+        <li><a href="">О Компании</a></li>
+        <li><a href="">Реквизиты</a></li>
+        <li><a href="">Ваканции</a></li>
+        <li><a href="">Сотрудничество</a></li>
+        <li><a href="">Оптовикам</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>информация</h3>
+      <ul>
+        <li><a href="">О Компании</a></li>
+        <li><a href="">Реквизиты</a></li>
+        <li><a href="">Ваканции</a></li>
+        <li><a href="">Сотрудничество</a></li>
+        <li><a href="">Оптовикам</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>информация</h3>
+      <ul>
+        <li><a href="">О Компании</a></li>
+        <li><a href="">Реквизиты</a></li>
+        <li><a href="">Ваканции</a></li>
+        <li><a href="">Сотрудничество</a></li>
+        <li><a href="">Оптовикам</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="hr_martop_0 hide">
+    <div class="row hide">
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <h3>оглавление магазина</h3>
+      <ul>
+        <li><a href="">Пункт 1</a></li>
+        <li><a href="">Пункт 2</a></li>
+        <li><a href="">Пункт 3</a></li>
+        <li><a href="">Пункт 4</a></li>
+        <li><a href="">Пункт 5</a></li>
+      </ul>
+    </div>
+  </div>
+     
+     </div>
+  </div>
+  </div>
+  <div class="footer2">
+    © Copyright 2011-2019. All rights is reserved
+  </div>
+</footer>
+
+
+
+
+  
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
